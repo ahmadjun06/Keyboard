@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+#keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.key {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: black;
+    color: wheat;
+    cursor: pointer;
+}
+
+.key.special {
+    width: 80px;
+}
+
+#input-field {
+    margin-right: 50px;
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+}
